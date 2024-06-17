@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo{
+    margin-left: 25px;
+    width: max(10%,80px);
+}
+
+.navbar .profile{
+    width: 40px;
+    margin-right: 25px;
+}

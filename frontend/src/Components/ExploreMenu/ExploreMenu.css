@@ -1,0 +1,47 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 83px;
+}
+
+.explore-menu h1{
+    color: #262626;
+    font-weight: bold;
+}
+.explore-menu-text{
+    max-width: 60%;
+    columns: #808080;
+}
+.explore-menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0px;
+    overflow-x: auto; /* Allow scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.explore-menu-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit (Chrome, Safari) */
+}
+
+
+
+.explore-menu-list img{
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border-radius: 260px;
+}
+.explore-menu-list p{
+    color: #747474;
+    cursor: pointer;
+}
+
+.explore-menu-list .Active{
+    border: 3px solid rgb(245, 56, 23);
+    padding: 2px;
+}
